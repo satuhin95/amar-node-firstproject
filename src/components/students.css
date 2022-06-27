@@ -1,0 +1,28 @@
+.students{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .student-table{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ededed;
+  }
+
+  table th td{
+    padding: 20px;
+    text-align: center;
+  }
+  .delete-btn{
+    padding: 10px;
+    background: red;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+  }
+  .delete-btn:hover{
+    background-color: brown;
+  }
